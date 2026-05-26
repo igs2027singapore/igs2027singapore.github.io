@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="title desc">
+  <title id="title">Singapore geometry skyline</title>
+  <desc id="desc">A stylized Singapore skyline with geometric grid lines</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1a237e"/>
+      <stop offset=".55" stop-color="#4051b5"/>
+      <stop offset="1" stop-color="#00acc1"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#0d47a1" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#021c33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="520" fill="url(#sky)"/>
+  <g stroke="#fff" stroke-width="1.2" opacity=".22" fill="none">
+    <path d="M0 80C260 210 432 8 640 150S1036 254 1600 70"/>
+    <path d="M0 145C310 255 440 50 690 188S1128 306 1600 118"/>
+    <path d="M-70 390C260 320 362 235 610 306s434 99 880-55"/>
+    <path d="M160 0v520M320 0v520M480 0v520M640 0v520M800 0v520M960 0v520M1120 0v520M1280 0v520M1440 0v520" opacity=".35"/>
+    <path d="M0 120h1600M0 240h1600M0 360h1600" opacity=".28"/>
+  </g>
+  <g opacity=".42" fill="#fff">
+    <circle cx="1270" cy="95" r="62"/>
+  </g>
+  <g transform="translate(0 214)" fill="#14213d" opacity=".82">
+    <path d="M900 82h232v138H900z"/>
+    <path d="M940 82c5-70 41-109 76-109s70 39 76 109z"/>
+    <rect x="1190" y="40" width="82" height="180" rx="6"/>
+    <rect x="1282" y="18" width="54" height="202" rx="4"/>
+    <rect x="1350" y="72" width="112" height="148" rx="4"/>
+    <rect x="650" y="108" width="78" height="112"/>
+    <rect x="746" y="80" width="66" height="140"/>
+    <rect x="830" y="122" width="50" height="98"/>
+    <path d="M168 176c76-58 166-58 252 0z"/>
+    <rect x="212" y="118" width="30" height="102"/>
+    <rect x="368" y="112" width="32" height="108"/>
+    <rect x="0" y="150" width="1600" height="80"/>
+  </g>
+  <rect y="400" width="1600" height="120" fill="url(#water)"/>
+  <g opacity=".32" stroke="#fff" stroke-width="2">
+    <path d="M150 428h320M720 442h380M1160 426h250M235 475h610M990 472h320"/>
+  </g>
+  <rect width="1600" height="520" fill="#000" opacity=".18"/>
+</svg>

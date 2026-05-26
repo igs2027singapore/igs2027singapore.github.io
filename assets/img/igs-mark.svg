@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">IGS 2027 mark</title>
+  <desc id="desc">Geometric summit logo mark</desc>
+  <defs>
+    <linearGradient id="g" x1="16" y1="112" x2="112" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00bcd4"/>
+      <stop offset="1" stop-color="#4051b5"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#g)"/>
+  <path d="M31 83 64 24l33 59H31Z" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="11" fill="#fff"/>
+  <path d="M31 83h66M64 24v75" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".72"/>
+</svg>
